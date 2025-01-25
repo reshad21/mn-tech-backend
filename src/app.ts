@@ -20,7 +20,7 @@ app.use(express.json());
 // CORS Configuration
 app.use(
   cors({
-    origin: ['https://bike-rental-website.vercel.app', 'http://localhost:5173'],
+    origin: ['https://payguard-backend.vercel.app', 'https://pay-guard-two.vercel.app', 'http://localhost:5173'],
     methods: ['GET', 'POST', 'PATCH', 'PUT', 'DELETE'],  // Allow PATCH method
     allowedHeaders: ['Content-Type', 'Authorization'],  // Allow these headers
     credentials: true,
